@@ -1,0 +1,90 @@
+{
+"X_info": 
+	{
+	"NR_DATA_POINTS": 1000,
+	"NOISE_STDEV": 0.0005,
+    "NOISE_DISTRIBUTION": "Normal",
+    "NOISE_STDEV_DISTRIBUTION":
+		{
+		"Distribution": "Rectangular",
+        "Args": 
+			{
+			"Mean": 0.0001,
+            "Stdev": 0.000288
+			}
+		},
+    "NR_OF_LOBES": 3,
+    "CIRCULARITY": 0.00002,
+    "LOBE_ANGLE": 0,
+    "SEED": 100,
+    "CUT_OFF_FREQUENCY": 50,
+    "RELATIVE_DISTANCE_ACTIVE_NODES": 0.01
+	},
+"Y_info":
+	{
+	"RADIUS":
+		{
+		"Distribution": "Normal",
+		"Nominal": 0.0,
+        "Args": 
+			{
+			"Mean":  50.0,
+            "Stdev": 0.0001
+			}
+		},
+	"CENTER_X":
+		{
+		"Distribution": "Normal",
+		"Nominal": 0.0,
+        "Args": 
+			{
+			"Mean":  0.0,
+            "Stdev": 0.0025
+			}
+		},
+	"CENTER_Y":
+		{
+		"Distribution": "Normal",
+		"Nominal": 0.0,
+        "Args": 
+			{
+			"Mean":  0.0,
+            "Stdev": 0.0025
+			}
+		}
+	},
+"Z_info":
+	{
+	"SQUARENESS_XY":
+		{
+		"Distribution": "Normal",
+		"Nominal": 0.0,
+        "Args": 
+			{
+			"Mean":  0.0000,
+            "Stdev": 0.0001
+			}
+		},
+	"SCALE_X":
+		{
+		"Distribution": "Normal",
+		"Nominal": 0.0,
+        "Args": 
+			{
+			"Mean":  0.0000,
+            "Stdev": 0.0001
+			}
+		},
+	"SCALE_Y":
+		{
+		"Distribution": "Normal",
+		"Nominal": 0.0,
+        "Args": 
+			{
+			"Mean":  0.0000,
+            "Stdev": 0.0001
+			}
+		}
+	},
+"unit": "mm"
+}
